@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiniNTierApp1.Services\MiniNTierApp1.Services.csproj" />
+    <ProjectReference Include="..\MiniNTierApp1.Models\MiniNTierApp1.Models.csproj" />
+    <ProjectReference Include="..\MiniNTierApp1.Data\MiniNTierApp1.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
